@@ -1,0 +1,33 @@
+form{
+width:250px;
+height:180px;
+}
+.form-group{
+margin-top:20px;
+margin-left:15px;
+float:left;
+position:relative;
+}
+.fl{
+float:left;
+position:relative;
+}
+.from2{
+}
+.btn{
+    position: absolute;
+    left: -100px;
+    top: 20px;
+}
+.pic{
+margin-left:20px;
+margin-top:20px;
+}
+select{
+min-width:35%;
+}
+.btn2{
+
+margin-left:25%;
+MIN-WIDTH: 35%;
+}

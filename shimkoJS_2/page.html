@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title> SHIMKO_JS_2 </title>
+
+<body>
+    <script src="ShimkoTask2.js"></script>
+    <form id="main_form">
+        <div id="create_div">
+            <label style="margin-right: 31px;">Строки: </label>
+            <input type="text" id="i_rows" value="3" size="10" onkeypress="return event.charCode >= 48 && event.charCode <= 57"><br/><br/>
+            <label style="margin-right: 10px;">Колонки: </label>
+            <input type="text" id="i_cols" value="3" size="10" onkeypress="return event.charCode >= 48 && event.charCode <= 57"><br/><br/>
+            <button type="button" id="tss" size="100" onclick="main()">Создать</button>
+        </div>
+    </form>
+</body>
+
+</html>
